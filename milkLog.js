@@ -4,11 +4,12 @@ let whatDay;
 
 function setup(){
     
-		let den = 2.0;
-		pixelDensity(den);
+//		let den = 1.0;
+//		pixelDensity(den);
 	
-		createCanvas(window.innerWidth,
-								 window.innerHeight);
+	// for mobile.
+		createCanvas(displayWidth,
+								 displayHeight);
     
     background(random(100,255),0,random(100,255));
 	
