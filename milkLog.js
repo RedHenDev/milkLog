@@ -69,7 +69,7 @@ function displayMilk(){
 	// Current milk Measure.
 	background(random(100,255),0,random(100,255));
 	
-	textSize(200);
+	textSize(200/pixelDensity());
 	text("🍼", 42, height/2);
 	
 	fill(255);
