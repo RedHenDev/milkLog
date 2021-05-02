@@ -1,12 +1,10 @@
-
-
 let haveReset;
 let milkMeasure;
 let whatDay;
 
 function setup(){
     
-		let den = 3.0;
+		let den = 2.0;
 		pixelDensity(den);
 	
 		createCanvas(window.innerWidth,
