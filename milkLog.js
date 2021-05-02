@@ -9,7 +9,7 @@ function setup(){
 	
 	// for mobile.
 		createCanvas(displayWidth,
-								 displayHeight);
+								 displayHeight*0.75);
     
     background(random(100,255),0,random(100,255));
 	
@@ -73,12 +73,12 @@ function displayMilk(){
 	text("🍼", 42, height/2);
 	
 	fill(255);
-	textSize(64);
+	textSize(64/pixelDensity());
 	milkMeasure = getItem('milkMeasure');
 	text(milkMeasure + "ml", 64, height - 128); 
 	
 	fill(180);
-	textSize(42);
+	textSize(42/pixelDensity());
 	text("tap at top +10ml, bottom -10ml", 64, height - 64);
 }
 
